@@ -8,6 +8,7 @@ import {
   StyledCTAContainer,
   StyledImageContainer,
 } from "./elements";
+import { CardButtons } from "../../collections/Card/Card";
 
 export const AgencySelection = ({ image, title, description, ...props }) => {
   return (
@@ -20,6 +21,7 @@ export const AgencySelection = ({ image, title, description, ...props }) => {
         <StyledImageContainer>
           <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
         </StyledImageContainer>
+          <CardButtons />
       </StyledCTAContainer>
     </StyledContainer>
   );

@@ -12,7 +12,7 @@ const heroProps = {
 const selectionProps = {
   image: { src: video, alt: "", width: 1000, height: 1680 },
   title: "Managed agency selection",
-  description: "Stengthen your onboarding process",
+  description: "Stengthen your onboarding process"
 };
 
 export default function Home() {
