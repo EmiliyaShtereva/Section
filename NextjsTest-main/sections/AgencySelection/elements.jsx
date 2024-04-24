@@ -28,11 +28,23 @@ export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   justify-content: center;
   padding: 3rem 0 7rem 0;
+  position: relative;
+`;
+
+export const StyledVideoContainer = styled(({ ...props }) => <div {...props} />)`
+  max-width: 17rem;
+  max-height: 27rem;
+  width: 100%;
+  height: 100%;
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 17rem;
-  max-height: 20rem;
+  max-width: 50rem;
+  max-height: 27rem;
   width: 100%;
   height: 100%;
+  position: absolute;
+  left: 0;
+  margin: 20px 0 0 13.5rem;
+  z-index: -1
 `;

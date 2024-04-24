@@ -1,4 +1,5 @@
 import Image from "next/image";
+import background from "../../resources/background.png";
 
 import {
   StyledTextContainer,
@@ -6,7 +7,8 @@ import {
   StyledTitle,
   StyledDescription,
   StyledCTAContainer,
-  StyledImageContainer,
+  StyledVideoContainer,
+  StyledImageContainer
 } from "./elements";
 import { CardButtons } from "../../collections/Card/Card";
 
@@ -19,9 +21,12 @@ export const AgencySelection = ({ image, title, description, ...props }) => {
       </StyledTextContainer>
       <StyledCTAContainer>
         <StyledImageContainer>
-          <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
+          <Image src={background} alt="" layout="responsive" />
         </StyledImageContainer>
-          <CardButtons />
+        <StyledVideoContainer>
+          <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
+        </StyledVideoContainer>
+        <CardButtons />
       </StyledCTAContainer>
     </StyledContainer>
   );
