@@ -19,7 +19,7 @@ export const StyledDescription = styled((props) => <SectionSubheading {...props}
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   color: black;
   width: 100%;
-  margin: 5rem 0 3rem 0;
+  padding: 6rem 0 0 0;
   text-align: center;
   font-family: sans-serif;
 `;
@@ -27,12 +27,12 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   justify-content: center;
-  margin: 3rem 0 10rem 0
+  padding: 3rem 0 7rem 0;
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 18rem;
-  max-height: 25rem;
+  max-width: 17rem;
+  max-height: 20rem;
   width: 100%;
   height: 100%;
 `;
