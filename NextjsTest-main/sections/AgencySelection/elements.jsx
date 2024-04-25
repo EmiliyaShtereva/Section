@@ -27,24 +27,24 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   justify-content: center;
-  padding: 3rem 0 7rem 0;
+  padding: 3rem 0 4rem 0;
   position: relative;
 `;
 
 export const StyledVideoContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 17rem;
-  max-height: 27rem;
+  max-width: 20rem;
+  max-height: 20rem;
   width: 100%;
   height: 100%;
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 50rem;
-  max-height: 27rem;
+  max-width: 60rem;
+  max-height: 20rem;
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
-  margin: 20px 0 0 13.5rem;
+  margin: 20px 0 0 9.7rem;
   z-index: -1
 `;
