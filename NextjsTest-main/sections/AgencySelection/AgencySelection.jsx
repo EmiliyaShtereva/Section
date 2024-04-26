@@ -21,7 +21,7 @@ export const AgencySelection = ({ image, title, description, ...props }) => {
       </StyledTextContainer>
       <StyledCTAContainer>
         <StyledImageContainer>
-          <Image src={background} alt="" layout="responsive" />
+          <Image src={background} alt="" width={0} height={0} sizes="100vw" style={{ width: '135%', height: '100%' }} />
         </StyledImageContainer>
         <StyledVideoContainer>
           <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
