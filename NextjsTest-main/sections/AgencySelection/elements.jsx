@@ -73,7 +73,7 @@ export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)
   position: absolute;
   top: 55px;
   left: 0;
-  margin: 20px 0 0 9.7rem;
+  margin: 20px 0 0 6rem;
   z-index: -1;
 
   @media (max-width: 1024px) {
