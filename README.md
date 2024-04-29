@@ -2,7 +2,7 @@
 
 This is an added section to a webpage.
 
-[Demo](https://section-fsx4or7fo-emiliyashterevas-projects.vercel.app/)
+[Demo](https://section-ten.vercel.app/)
 
 ## Setup
 - Download GitHub repo
